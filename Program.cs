@@ -3,8 +3,8 @@
 
 /*
 
-void DegreeOfNumber(double arg1, double arg2)                // Первыый аргумент должен присваивать значения числа которое хотим возвести в степень
-{                                                    // Второе аргумент должен присваивать значение степени
+void DegreeOfNumber(double arg1, double arg2)                
+{                                                    
     double ans = Math.Pow(arg1, arg2);
 
     Console.WriteLine("Число : ");
@@ -27,25 +27,24 @@ Console.ReadLine();
 */
 
 // Задача 27: Напишите программу, которая принимает на вход число и выдаёт сумму цифр в числе.
-
+/*
 void SumOfDigits(int arg)
 {
-    int count = 0; // переменная для поиска последней цифры числа 
-    int temp = 0; // контейнер для суммы цмфр числа
-    int i = 1;
+    int count = 0;  
+    int temp = 0; 
     while (arg > 0)
     {
-        count = arg % 10;   // Поиск последней цифры в числе с шагом один
-        arg = arg / 10; // уменьшение самого числа на десятую часть до 0,9
+        count = arg % 10;   
+        arg = arg / 10; 
 
-        temp = temp + count; // Посчет всех цифр числа начиная с права на лево
+        temp = temp + count; 
 
         Console.WriteLine(" ");
-        Console.Write("Число с конца  ");
+        Console.Write("Число с конца ");
         Console.Write(i);
         Console.Write(" : ");
         Console.Write(count);
-        i++; // счетчик номера числа с конца
+        i++; 
     }
     Console.WriteLine(" ");
     Console.Write("Сумма всех цифр в числе = ");
@@ -59,3 +58,5 @@ int number = int.Parse(Console.ReadLine());
 
 SumOfDigits(number);
 Console.ReadLine();
+
+*/
